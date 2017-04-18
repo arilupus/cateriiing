@@ -1,0 +1,132 @@
+body {
+	font-family: "Courier New", Courier, monospace;
+	font-size  : 14px;
+	color      : #333;
+}
+.navbar {
+	border-radius: 0;
+	border: none;
+	margin-bottom: 0;
+	min-height: 64px;
+}
+.navbar-brand {
+	padding: 0;
+}
+.nav > li > a {
+	padding: 10px 0;
+}
+.navbar-default {
+	background-color: rgba(255, 255, 255, .7);
+	border-color    : transparent;
+}
+.navbar-default .navbar-brand {
+	margin-left: 1px !important;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #333;
+}
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a.active {
+	color         : #999;
+	padding-bottom: 21px;
+	border-bottom : 1px solid #99ff99;
+}
+.navbar-default .navbar-nav > li > a.active {
+	font-weight: 600;
+}
+.navbar-nav > li {
+	padding: 0 15px;
+}
+.navbar-nav > li > a {
+	padding-top   : 22px;
+	padding-bottom: 22px;
+}
+.navbar-nav > li > .register-or-login {
+	display: inline-block;
+}
+.navbar-nav > li > .register-or-login:first-child {
+	padding-right: 0;
+}
+.navbar-nav > li > .register-or-login:nth-child(2) {
+	padding-left: 0;
+}
+.navbar-nav > li > .cart-icon {
+	position: relative;
+}
+.navbar-nav > li > .cart-icon,
+.navbar-nav > li > .cart-icon:focus,
+.navbar-nav > li > .cart-icon:hover {
+	padding-top   : 16px;
+	padding-bottom: 16px !important;
+	border-bottom : none !important;
+}
+.navbar-nav > li > .cart-icon span {
+	position        : absolute;
+	content         : "";
+	top             : 11px;
+	right           : -14px;
+	border-radius   : 50%;
+	background-color: #ff6666;
+	color           : #fff;	
+	width           : 25px;
+	height          : 25px;
+	padding-top     : 3px;
+}
+.cateriiing-navbar {
+	position: fixed;
+	top     : 0;
+	right   : 0;
+	left    : 0;
+	z-index : 9999;
+}
+.navbar-left .form-group .input-group {
+	position: relative;
+	width: 400px;
+}
+.navbar-left .form-group .input-group:before {
+	position        : absolute;
+	content         : "";
+	top             : 9px;
+	left            : 9px;
+	background-image: url(../images/location-icon.png);
+	width           : 32px;
+	height          : 32px;
+	z-index         : 5;
+}
+.navbar-left .form-group .input-group .form-control,
+.navbar-left .form-group .input-group-btn:last-child > .btn {
+	border: 1px solid #333;
+}
+.navbar-left .form-group .input-group .form-control {
+	border-top-left-radius   : 0;
+	border-bottom-left-radius: 0;
+	padding-left: 40px;
+}
+.navbar-left .form-group .input-group .form-control:hover,
+.navbar-left .form-group .input-group .form-control:focus,
+.navbar-left .form-group .input-group .form-control:active {
+	outline           : none;
+	-webkit-box-shadow: none;
+	box-shadow        : none;
+}
+.navbar-left .form-group .input-group-btn > .btn {
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;	
+}
+.navbar-left .form-group .input-group-btn .btn-default {	
+	background-color: #333;
+	color           : #fff;
+	border-color    : #333;
+	outline         : none;
+}
+.navbar-form {
+	margin: 15px 0;
+}
+.navbar-form .input-group .input-group-btn {
+	width: 81px;
+	max-width: 81px;
+}
+.container {
+	width: 940px;
+}

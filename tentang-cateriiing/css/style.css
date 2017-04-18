@@ -1,0 +1,26 @@
+#tentang-cateriiing {
+	position: relative;
+	padding-top: 80px;
+}
+#tentang-cateriiing:before {
+	content: '';
+	position: absolute;
+	top: 98px;
+	left: 8px;
+	height: 100%;
+	width: 1px;
+	background: #99ff99;
+}
+#tentang-cateriiing > .row {
+	padding-left: 48px;
+	position: relative;
+}
+#tentang-cateriiing > .row:before {
+	position: absolute;
+	content: "";
+	background-image: url("../images/point-icon.png");
+	width: 25px;
+	height: 25px;
+	top: 0;
+	left: 11px;
+}
